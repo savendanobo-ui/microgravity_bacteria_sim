@@ -159,7 +159,7 @@ class BacteriaCellularAutomaton:
         self.G = new_G
         self.S = new_S
         
-        # Opcional: imprimir divisiones cada cierto paso (lo verás en la terminal)
+        # Opcional: imprimir divisiones cada cierto paso
         if divisions > 0 and self.time_step % 50 == 0:
             print(f"Paso {self.time_step}: {divisions} nuevas células creadas")
 
