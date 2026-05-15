@@ -22,23 +22,6 @@ El modelo está basado en el seminario *Microgravedad y Radiación Espacial: Su 
   - `2` = célula en crecimiento
 - **Inhibición espacial**: una célula en división pasa a crecimiento si el número de vecinos supera el umbral `N0`.
 
-## Estructura del proyecto
-microgravity_bacteria_sim/
-├── src/
-│ ├── init.py
-│ ├── model.py # Lógica del autómata
-│ └── visualization.py # Visualización y guardado de frames
-├── tests/ # Pruebas unitarias (pendientes)
-├── data/ # Datos generados (opcional)
-├── runs/ # Outputs de simulación
-├── output_simulacion/ # Imágenes guardadas (si se activa)
-├── requirements.txt
-├── .gitignore
-├── LICENSE
-├── README.md
-└── run.py # Script principal
-
-
 ## Instalación
 
 ### Requisitos
