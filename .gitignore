@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.so
+.Python
+venv/
+env/
+ENV/
+
+# Entornos y editores
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# Datos y outputs generados
+output_simulacion/*.png
+data/*.npy
+data/*.csv
+runs/*.mp4
+runs/*.gif
+
+# Archivos de pruebas y cobertura
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
