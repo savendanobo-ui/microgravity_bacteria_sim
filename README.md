@@ -32,10 +32,10 @@ El modelo está basado en el seminario *Microgravedad y Radiación Espacial: Su 
 ### Pasos
 
 1. Clonar el repositorio:
-   ```bash
-   git clone https://github.com/savendanobo-ui/microgravity_bacteria_sim.git
-   cd microgravity_bacteria_sim
-   ```
+  ```bash
+  git clone https://github.com/savendanobo-ui/microgravity_bacteria_sim.git
+  cd microgravity_bacteria_sim
+  ```
 
 2. Crear y activar entorno virtual:
   ```bash
@@ -44,32 +44,32 @@ El modelo está basado en el seminario *Microgravedad y Radiación Espacial: Su 
   venv\Scripts\activate         # Windows
   ```
 
-3. Instalar dependencias
+3. Instalar dependencias:
   ```bash
   pip install -r requirements.txt
   ```
 
-4. Uso
+4. Uso:
   ```bash
   python run.py --steps 300 --size 150 --microgravity --save-interval 50
   ```
 
 Puede alterar los diferentes argumentos, use 
   ```bash
-  python run.py --help para ver los argumentos disponibles
+  python run.py --help #para ver los argumentos disponibles
 
-  Argumentos disponibles
-  --microgravity	Activa parámetros de microgravedad	
-  --steps STEPS	Número de pasos de simulación	
-  --size SIZE	Tamaño del grid (SIZE x SIZE)	
-  --save SAVE	Guardar último frame como PNG	
-  --interval INTERVAL	Milisegundos entre pasos de animación	
-  --no-metrics	Oculta la gráfica de evolución	
-  --seed SEED	Semilla para reproducibilidad	
-  --save-interval N	Guardar imagen cada N pasos (0 = no guardar)	
-  --output-dir DIR	Carpeta destino para imágenes guardadas	
+  #Argumentos disponibles
+  --microgravity	#Activa parámetros de microgravedad	
+  --steps #STEPS	Número de pasos de simulación	
+  --size #SIZE	Tamaño del grid (SIZE x SIZE)	
+  --save #SAVE	Guardar último frame como PNG	
+  --interval #INTERVAL	Milisegundos entre pasos de animación	
+  --no-metrics	#Oculta la gráfica de evolución	
+  --seed #SEED	Semilla para reproducibilidad	
+  --save-interval #N	Guardar imagen cada N pasos (0 = no guardar)	
+  --output-dir #DIR	Carpeta destino para imágenes guardadas	
   ```
-  
+
 Limitaciones conocidas:
 El sustrato se difunde aleatoriamente (sin gradientes de concenración ni quimiotaxis)
 La visualización puede volverse lenta para grids de mas de 200x200
@@ -79,5 +79,5 @@ https://github.com/savendanobo-ui/microgravity_bacteria_sim
 
 Distribuido bajo licencia MIT. Consulta el archivo LICENSE para mas información.
 
-Contacto
+Contacto:
 Samir Steven Avendaño Bolaños - savendanobo@unal.edu.co
